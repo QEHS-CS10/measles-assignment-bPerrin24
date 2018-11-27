@@ -1,3 +1,7 @@
+float measlesX;
+float measlesY;
+float measlesDiamter;
+
 void measlesArithmetic(){
   
   measlesX = random(width*1/40, width*39/40);
@@ -8,7 +12,7 @@ void measlesArithmetic(){
   noStroke(); //remove
   ellipse(measlesX, measlesY, measlesDiamter, measlesDiamter);
   stroke(1); //default
-  
+
 
 
 }
